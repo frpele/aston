@@ -1,0 +1,44 @@
+#homepage {
+	h1 {
+		color: $primary_color;
+
+	}
+
+	.class-one, .class-two, .class-three, .class-four {
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	text-align: center;
+	line-height: 9em;
+
+	}
+
+	.class-one {
+		background-color: red;
+	}
+
+	.class-two {
+		background-color: skyblue;
+	}
+
+	.class-three {
+		background-color: yellow;
+	}
+
+	.class-four {
+		background-color: green;
+	}
+
+	
+	form {
+		input {
+			@include form-input();
+		}
+
+		span {
+			@extend .error;
+		}
+	}
+
+}
+
