@@ -2,23 +2,118 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<title>Mon super site</title>
+		<title>RealTea</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body id="homepage">
-		<h1>Mon super site</h1>
-		<div class="content">
-			<div class="class-one">mon texte centré</div>
-			<div class="class-two">mon texte centré</div>
-			<div class="class-three">mon texte centré</div>
-			<div class="class-four">mon texte centré</div>	
+		<div id="bloc-page">
+			<header>
+            	<nav>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Real tea</a></li>
+                        <li><a href="#">Nos thés</a></li>
+                        <li><a href="#">Trouvez-nous</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <section>
+            	<div id="logo">
+                        <img src="images/logo.png" alt="Logo de RealTea" />
+                </div>
+            	<figure>
+            		<div class="titre_principal">
+                       <img src="images/h2.png" alt="titre" />
+                       <a href="#" class="chevron"><img src="images/puce_header_more.png" alt="Découvrir nos thés" />
+                         Découvrir nos thés</a>    
+                   	</div>
+            	</figure>
+            	<article>
+            		<h2><img src="images/icone1.jpg" alt="variétés de thé">75 variétés de thé</h2>
+            		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            	</article>
+            	<article>
+            		<h2><img src="images/icone2.jpg" alt="variétés de thé">Des thés de Chine</h2>
+            		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            	</article>
+            	<article>
+            		<h2><img src="images/icone3.jpg" alt="variétés de thé">Des conseils détente</h2>
+            		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            	</article>
+            </section>
+
+            <aside>
+            	<h2>Dernières actualités</h2>
+            	<article>
+            		<div class="date">01 jan</div>
+            		<h2>Ouverture du nouveau Real Tea à Strasbourg</h2>
+            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            		<p>Lire la suite</p>
+            	</article>
+            	<article>
+            		<div class="date">01 jan</div>
+            		<h2>Ouverture du nouveau Real Tea à Strasbourg</h2>
+            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            		<p>Lire la suite</p>
+            	</article>
+            	<article>
+            		<div class="date">01 jan</div>
+            		<h2>Ouverture du nouveau Real Tea à Strasbourg</h2>
+            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            		<p>Lire la suite</p>
+            	</article>
+            </aside>
+			<section>
+				<div class="espaces">
+					<h2>Trouvez nos espaces thé</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					<ul>
+						<li>Strasbourg</li>
+						<li>Lyon</li>
+						<li>Marseille</li>
+					</ul>
+
+					<ul>
+						<li>Paris</li>
+						<li>Rennes</li>
+						<li>Bordeaux</li>
+					</ul>
+				</div>
+
+				<div class="newsletter">
+					<h2>Newsletter</h2>
+					<p>Ne loupez pas le meilleur de l'actualité du thé et de Real Tea !
+					<form method="post" action="traitement.php">
+				    <p>
+				        <input type="email" name="email"	id="email" placeholder="Mon adresse email"/>
+				    </p>
+				     <a href="#" class="bouton_inscription">Je m'inscris <img src="images/flecheblanchedroite.png" alt="" /></a>
+</form>
+				</div>
+
+			</section>
+			<footer>
+				Retrouvez-nous aussi sur :
+				<img src="images/fb.png"><img src="images/twitter.png">
+				&copy; Gaétan Weltzer Tous droits réservés - tutoriel pour Living Tuts : <a href="http://www.livingtuts.com">www.livingtuts.com</a>
+			</footer>	
 		</div>
-		<p>
-		<form>
-			<label for="email">Ton email</label>
-			<input type="email" id="email" name="">
-			<span>Erreur</span>
-		</form>
-		</p>
-		</body>
+	</body>
 </html>

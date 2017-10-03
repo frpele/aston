@@ -1,4 +1,4 @@
-@mixin form-input($width:100px,$color:skyblue) {
+@mixin form-input($width:200px,$color:white) {
 	display: block;
 	width: $width;
 	height: 20px;
@@ -11,4 +11,5 @@
 	-webkit-border-radius:0px!important;
 	-moz-border-radius: 0px!important;
 	border-radius:0px!important;
+	
 }
