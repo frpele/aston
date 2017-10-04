@@ -1,36 +1,153 @@
-#homepage {
-	h1 {
-		color: $primary_color;
+/* Définition des polices personnalisées */
+@font-face {
+	font-family: "GINKO";
+	src: url('../fonts/GINKO.ttf');
+}
 
-	}
+@font-face {
+	font-family: "Melbourne";
+	src: url('../fonts/Melbourne_regular_basic.otf');
+}
 
-	.class-one, .class-two, .class-three, .class-four {
-	width: 200px;
-	height: 150px;
-	display: inline-block;
-	text-align: center;
-	line-height: 9em;
+@font-face {
+	font-family: "Melbourne";
+	font-weight: bold;
+	src: url('../fonts/Melbourne_bold_basic.otf');
+}
 
-	}
+@font-face {
+	font-family: "Melbourne_light";
+	font-weight: bold;
+	src: url('../fonts/Melbourne_light_basic.otf');
 
-	.class-one {
-		background-color: red;
-	}
+}
+/* Eléments principaux de la page */
 
-	.class-two {
-		background-color: skyblue;
-	}
-
-	.class-three {
-		background-color: yellow;
-	}
-
-	.class-four {
-		background-color: green;
-	}
-
+* {
 	
-	form {
+}
+
+
+body {
+	background: url('../images/bg_body.jpg');
+	font-family: 'Melbourne', Arial, sans-serif;
+    color: #5c5c5c;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+
+	margin-top: 50px;
+}
+
+
+/* Header */
+
+#container
+{
+   background: url('../images/bg_header.jpg') ;
+   background-repeat: no-repeat; /* Le fond ne sera pas répété */
+   background-position: top center; 
+   background-size: 1312px 622px;
+   }
+
+
+
+aside h2
+{
+        text-transform: uppercase;
+}
+
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color : rgba(141, 174, 36, 0.7);
+    margin : 0px ;
+    padding : 7px 200px 7px 0px;
+    
+}
+
+nav li {
+	margin-right: 15px;
+	
+}
+
+nav a
+{
+    color: #fff;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+
+/* titre */
+
+section {
+	width: 942px;
+	margin: auto;
+}
+
+
+figure {
+	margin-top:40px;
+	margin-bottom:0px;
+	
+}
+
+
+.titre_principal {
+	
+display:flex;
+
+	}
+
+
+.titre_lien {
+display:flex;
+flex-direction:column;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+.titre_lien a {
+	margin-top:10px;
+	color: #8dae24;
+    text-decoration: none;
+}
+
+
+/* articles */
+
+.articles {
+
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.3em;
+	padding-bottom : 80px;
+	padding-top : 10px;
+
+}
+
+article img {
+
+	margin : 0px 5px 0px 0px;
+}
+
+article {
+	font-size: 0.9em;
+	margin : 0px 5px 0px 5px;
+
+
+}
+
+
+form {
 		input {
 			@include form-input();
 		}
@@ -40,5 +157,5 @@
 		}
 	}
 
-}
+
 
