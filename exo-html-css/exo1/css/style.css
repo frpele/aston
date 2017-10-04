@@ -106,6 +106,34 @@ article {
   font-size: 0.9em;
   margin: 0px 5px 0px 5px; }
 
+/* contenus */
+.contenus {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  width: 1000px;
+  margin: auto; }
+
+aside {
+  background: url("../images/bg_news.jpg");
+  background-repeat: no-repeat;
+  /* Le fond ne sera pas r├®p├®t├® */
+  padding: 50px 20px 20px 20px;
+  width: 700px; }
+
+.date {
+  background: url("../images/bg_date.png");
+  background-repeat: no-repeat;
+  /* Le fond ne sera pas r├®p├®t├® */
+  background-size: 41px 78px;
+  width: 41px;
+  height: 78px; }
+
+aside article {
+  display: flex; }
+
 form input {
   display: block;
   width: 200px;
