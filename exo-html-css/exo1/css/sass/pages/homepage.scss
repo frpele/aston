@@ -174,12 +174,31 @@ aside {
   	background-size: 41px 78px;
   	width: 41px;
   	height: 78px;
+  	margin-top:10px;
 }
 
 aside article {
 	display: flex;
+	padding-top:7px;
 }
 
+.contenu-article {
+	width:450px;
+	margin: 5px 10px 5px 10px;
+	padding:0px;
+}
+
+aside article h3{
+	margin: 0px;
+	font-size: 0.9em;
+
+
+}
+
+aside article p{
+	margin: 5px 0px 0px 0px;
+	font-size: 0.9em;
+}
 
 
 form {
