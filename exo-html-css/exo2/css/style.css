@@ -1,0 +1,39 @@
+body {
+  background: url("../img/bg-body.jpg"); }
+
+#bloc_centre {
+  width: 970px;
+  margin: auto;
+  padding-top: 20px; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+
+nav {
+  background-color: black;
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center; }
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0; }
+
+nav li {
+  margin-left: 15px; }
+
+#slider {
+  display: flex; }
+
+#slider article {
+  margin-left: 20px; }
+
+#slider img {
+  width: 60%;
+  height: 200px; }
+
+/*# sourceMappingURL=style.css.map */
