@@ -35,6 +35,10 @@ nav ul {
 nav li {
 	margin-left: 15px;
 	margin-right: 15px;
+	&:hover {
+		color: orange;
+		cursor: pointer;
+	}
 }
 
 #slider {
@@ -48,10 +52,14 @@ nav li {
 }
 
 
+#slider article h1 {
+	font-size:1.9em;
+}
+
 
 #slider .conteneur-slider img {
 	width: 100%;
-	height: 200px;
+	height: 300px;
 	
 }
 
@@ -81,3 +89,6 @@ text-transform: uppercase;
 	display: flex;
 }
 
+.myclass {
+ font-size: 50px;
+}
