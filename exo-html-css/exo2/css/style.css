@@ -9,7 +9,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px; }
+  margin-bottom: 30px;
+  margin-top: 10px; }
 
 nav {
   background-color: black;
@@ -39,25 +40,18 @@ nav li {
   flex: 1; }
 
 #slider article h1 {
-  font-size: 1.9em; }
+  font-size: 1.6em;
+  text-transform: uppercase; }
+
+#slider article p {
+  font-size: 1.3em; }
 
 #slider .conteneur-slider img {
   width: 100%;
-  height: 300px; }
+  height: 80%; }
 
-#slider article h1 {
-  text-transform: uppercase; }
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease; }
+#slider article {
+  margin: 20px 0 20px 20px; }
 
 .conteneur-slider {
   display: flex;
@@ -65,9 +59,35 @@ nav li {
   flex: 2; }
 
 .puce {
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; }
 
-.myclass {
-  font-size: 50px; }
+.fa-circle {
+  padding: 0 3px 0 3px;
+  margin-right: 10px;
+  font-size: 0.9em; }
+
+.orange {
+  color: orange; }
+
+.work h2 {
+  background-color: black;
+  padding: 8px 0 8px 10px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: white; }
+
+.visuel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; }
+
+.element img {
+  width: 220px;
+  height: 130px; }
+
+.element h3, p {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
