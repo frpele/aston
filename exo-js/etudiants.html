@@ -36,11 +36,13 @@ console.log ("Liste des étudiants");
 
 for (var i=0; i<etudiants.length; i++) {
 
-	if (etudiants[i].admis === admis) {
-		console.log(etudiants[i].nom + " est admis avec " + etudiants[i].moyenne + " de moyenne");
+	var etudiant = etudiants[i];
+
+	if (etudiant.admis === admis) {
+		console.log(etudiant.nom + " est admis avec " + etudiant.moyenne + " de moyenne");
 	}
 	else {
-		console.log(etudiants[i].nom + " n'est pas admis");
+		console.log(etudiant.nom + " n'est pas admis");
 	}
 
 	
